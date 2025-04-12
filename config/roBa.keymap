@@ -117,7 +117,7 @@
 
         MOUSE {
             bindings = <
-&trans      &kp LG(LEFT_ARROW)  &kp UP_ARROW    &kp LG(RIGHT_ARROW)  &trans                                                    &trans      &trans    &trans    &trans    &trans
+&trans      &kp LG(LEFT_ARROW)  &kp UP_ARROW    &kp LG(RIGHT_ARROW)  &trans                                                    &trans      &trans    &trans    &trans    &kp LC(BACKSPACE)
 &kp LCTRL   &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp PAGE_UP    &kp LS(LG(NUMBER_4))        &trans         &kp HOME    &mkp MB1  &mkp MB3  &mkp MB2  &kp RETURN
 &kp LSHFT   &kp LA(LEFT_ARROW)  &trans          &kp LA(UP_ARROW)     &kp PAGE_DOWN  &kp LCTRL                   &trans         &kp END     &mkp MB4  &mkp MB5  &trans    &trans
 &kp ESCAPE  &kp LEFT_ALT        &kp LEFT_GUI    &trans               &trans         &lt_to_layer_0 5 LCTRL      &kp BACKSPACE  &kp RETURN                                &trans
