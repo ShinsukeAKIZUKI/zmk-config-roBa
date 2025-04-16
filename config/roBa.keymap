@@ -33,17 +33,12 @@
 
         BS {
             bindings = <&kp BACKSPACE>;
-            key-positions = <20 19>;
-        };
-
-        enter {
-            bindings = <&kp RETURN>;
-            key-positions = <31 32>;
+            key-positions = <20 21>;
         };
 
         del {
             bindings = <&kp DELETE>;
-            key-positions = <8 7>;
+            key-positions = <8 9>;
         };
 
         esc1 {
@@ -53,7 +48,12 @@
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <8 9>;
+            key-positions = <8 7>;
+        };
+
+        quote {
+            bindings = <&kp SQT>;
+            key-positions = <20 19>;
         };
     };
 
