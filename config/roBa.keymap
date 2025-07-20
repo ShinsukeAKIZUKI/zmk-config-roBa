@@ -107,10 +107,10 @@
 
         INPUTS {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                             &kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8    &kp NUMBER_9          &kp NUMBER_0
-&kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PERCENT   &trans      &kp PLUS       &kp CARET         &kp AMPERSAND      &kp ASTRK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp TILDE     &kp GRAVE     &trans        &trans        &trans        &trans      &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&kp ESCAPE    &kp LEFT_ALT  &kp LEFT_WIN  &trans        &trans        &trans      &kp BACKSPACE  &kp RETURN                                                                 &kp PIPE
+&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                             &kp NUMBER_6     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &kp NUMBER_0
+&kp GRAVE       &none         &none         &none         &none         &trans      &kp PLUS       &none            &none         &none         &kp LEFT_BRACE  &kp RIGHT_BRACE
+&kp LEFT_SHIFT  &none         &trans        &trans        &trans        &trans      &kp EQUAL      &none            &none         &none         &none           &kp BACKSLASH
+&kp ESCAPE      &kp LEFT_ALT  &kp LEFT_WIN  &trans        &trans        &trans      &kp BACKSPACE  &kp RIGHT_SHIFT                                              &kp RIGHT_SHIFT
             >;
         };
 
