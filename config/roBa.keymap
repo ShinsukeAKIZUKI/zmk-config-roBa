@@ -116,10 +116,10 @@
 
         NUMPAD {
             bindings = <
-&trans          &trans              &kp UP_ARROW    &trans               &trans                                &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS
-&kp LCTRL       &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &trans  &trans         &trans         &kp KP_DOT       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS
-&kp LEFT_SHIFT  &kp LS(LEFT_ARROW)  &trans          &kp LS(RIGHT_ARROW)  &trans  &kp LCTRL      &kp EQUAL      &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ASTERISK
-&kp ESCAPE      &kp LEFT_ALT        &kp LEFT_WIN    &trans               &trans  &trans         &kp BACKSPACE  &kp RETURN                                                          &kp KP_DIVIDE
+&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)                                &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)    &kp LS(NUMBER_0)
+&kp LS(GRAVE)     &none             &none             &none             &trans            &trans         &trans         &none             &none             &none             &kp LS(LEFT_BRACE)  &kp LS(RIGHT_BRACE)
+&kp LEFT_SHIFT    &none             &trans            &none             &trans            &kp LCTRL      &kp EQUAL      &none             &none             &none             &none               &kp LS(NON_US_BACKSLASH)
+&kp ESCAPE        &kp LEFT_ALT      &kp LEFT_WIN      &trans            &trans            &trans         &kp BACKSPACE  &kp RETURN                                                                &none
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
