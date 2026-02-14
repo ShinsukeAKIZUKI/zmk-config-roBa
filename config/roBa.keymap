@@ -88,9 +88,9 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                          &kp T                                                                         &kp Y                   &kp U  &kp I      &kp O    &kp P
-&mt LCTRL A       &kp S         &kp D         &kp F                          &kp G                   &kp LS(LG(S))                   &kp LEFT_GUI          &kp H                   &kp J  &kp K      &kp L    &kp SEMICOLON
+&mt LCTRL A       &kp S         &kp D         &kp F                          &kp G                   &none                           &none                 &kp H                   &kp J  &kp K      &kp L    &kp SEMICOLON
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                          &kp B                   &kp LCTRL                       &mt LEFT_SHIFT EQUAL  &kp N                   &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp ESC           &kp LEFT_ALT  &kp LEFT_GUI  &lt_to_layer_0 2 LEFT_CONTROL  &lt_to_layer_0 4 SPACE  &lt_to_layer_0 3 LC(SPACE)      &kp BACKSPACE         &lt_to_layer_0 1 ENTER                             &kp LEFT_SHIFT
+&mo 6             &kp LEFT_ALT  &kp LEFT_GUI  &lt_to_layer_0 2 LEFT_CONTROL  &lt_to_layer_0 4 SPACE  &lt_to_layer_0 3 LC(SPACE)      &kp BACKSPACE         &lt_to_layer_0 1 ENTER                             &kp LEFT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -116,10 +116,10 @@
 
         INPUTS {
             bindings = <
-&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)                                &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)    &kp LS(NUMBER_0)
-&kp LS(GRAVE)     &none             &none             &none             &trans            &trans         &trans         &none             &none             &none             &kp LS(LEFT_BRACE)  &kp LS(RIGHT_BRACE)
-&kp LEFT_SHIFT    &none             &trans            &none             &trans            &kp LCTRL      &kp EQUAL      &none             &none             &none             &none               &kp LS(NON_US_BACKSLASH)
-&kp ESCAPE        &kp LEFT_ALT      &kp LEFT_WIN      &trans            &trans            &trans         &kp BACKSPACE  &kp RETURN                                                                &none
+&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)                                        &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)    &kp LS(NUMBER_0)
+&kp LS(GRAVE)     &none             &none             &kp LA(F4)        &kp LS(LC(LG(NUMBER_4)))  &trans         &trans         &none             &none             &none             &kp LS(LEFT_BRACE)  &kp LS(RIGHT_BRACE)
+&kp LEFT_SHIFT    &none             &trans            &none             &kp LS(LG(S))             &kp LCTRL      &kp EQUAL      &none             &none             &none             &none               &kp LS(NON_US_BACKSLASH)
+&kp ESCAPE        &kp LEFT_ALT      &kp LEFT_WIN      &trans            &trans                    &trans         &kp BACKSPACE  &kp RETURN                                                                &none
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -145,10 +145,10 @@
 
         CAD {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&kp Y   &kp U           &kp I        &kp O             &kp P                             &trans  &trans  &trans  &trans  &trans
+&kp H   &mt LEFT_ALT J  &mt LCTRL K  &mt LEFT_SHIFT L  &kp LS(L)  &trans         &trans  &trans  &trans  &trans  &trans  &trans
+&kp F9  &kp F10         &kp N        &kp M             &kp F1     &kp LCTRL      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &trans       &kp LEFT_SHIFT    &trans     &trans         &trans  &trans                          &trans
             >;
         };
     };
