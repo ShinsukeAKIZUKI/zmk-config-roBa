@@ -26,21 +26,6 @@
             key-positions = <12 13>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
-        BS {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <7 8>;
-        };
-
-        del {
-            bindings = <&kp DELETE>;
-            key-positions = <8 9>;
-        };
-
         esc1 {
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
@@ -56,9 +41,9 @@
             key-positions = <31 32>;
         };
 
-        return {
-            bindings = <&kp RET>;
-            key-positions = <20 21>;
+        moji {
+            bindings = <&kp LC(SPACE)>;
+            key-positions = <25 26>;
         };
     };
 
