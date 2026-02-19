@@ -112,10 +112,10 @@
 
         MOUSE {
             bindings = <
-&kp DELETE  &none               &kp UP_ARROW    &trans               &trans                                             &trans          &kp RG(W)  &kp RC(W)  &none     &kp LS(DEL)
-&kp ENTER   &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &none   &none                       &none          &msc SCRL_UP    &mkp MB1   &mkp MB3   &mkp MB2  &kp RETURN
-&kp LSHFT   &kp LS(LEFT_ARROW)  &kp M           &kp LS(RIGHT_ARROW)  &none   &kp LCTRL                   &to 0          &msc SCRL_DOWN  &mkp MB4   &mkp MB5   &trans    &trans
-&kp ESCAPE  &kp LEFT_ALT        &kp LEFT_GUI    &trans               &trans  &lt_to_layer_0 5 LCTRL      &kp BACKSPACE  &kp RETURN                                      &trans
+&kp DELETE  &none               &kp UP_ARROW    &trans                      &trans                                             &trans          &kp RG(W)  &kp RC(W)  &none     &kp LS(DEL)
+&kp ENTER   &kp LEFT_ARROW      &kp DOWN_ARROW  &mt LEFT_SHIFT RIGHT_ARROW  &none   &none                       &none          &msc SCRL_UP    &mkp MB1   &mkp MB3   &mkp MB2  &kp RETURN
+&kp LSHFT   &kp LS(LEFT_ARROW)  &kp M           &kp LS(RIGHT_ARROW)         &none   &kp LCTRL                   &to 0          &msc SCRL_DOWN  &mkp MB4   &mkp MB5   &trans    &trans
+&kp ESCAPE  &kp LEFT_ALT        &kp LEFT_GUI    &trans                      &trans  &lt_to_layer_0 5 LCTRL      &kp BACKSPACE  &kp RETURN                                      &trans
             >;
         };
 
