@@ -92,10 +92,10 @@
 
         NUM {
             bindings = <
-&kp KP_NUMLOCK  &none           &kp UP_ARROW    &none            &none                              &kp PERIOD       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none
-&none           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none   &trans      &none          &kp UNDERSCORE   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp F8
-&none           &none           &trans          &trans           &trans  &trans      &none          &kp N0           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none
-&kp ESCAPE      &kp LEFT_ALT    &kp LEFT_WIN    &trans           &trans  &trans      &kp BACKSPACE  &kp RIGHT_SHIFT                                            &mo 3
+&kp KP_NUMLOCK  &none           &kp UP_ARROW    &none            &none                                 &kp PERIOD       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none
+&none           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none   &trans         &none          &kp UNDERSCORE   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp F8
+&none           &none           &trans          &trans           &trans  &kp RCTRL      &none          &kp N0           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none
+&kp ESCAPE      &kp LEFT_ALT    &kp LEFT_WIN    &trans           &trans  &trans         &kp BACKSPACE  &kp RIGHT_SHIFT                                            &mo 3
             >;
         };
 
