@@ -93,8 +93,8 @@
         NUM {
             bindings = <
 &kp KP_NUMLOCK  &none         &none         &none   &none                              &kp PERIOD       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none
-&none           &none         &none         &none   &none   &trans      &none          &kp UNDERSCORE   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0
-&none           &none         &trans        &trans  &trans  &trans      &none          &kp N0           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0
+&none           &none         &none         &none   &none   &trans      &none          &kp UNDERSCORE   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp F8
+&none           &none         &trans        &trans  &trans  &trans      &none          &kp N0           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none
 &kp ESCAPE      &kp LEFT_ALT  &kp LEFT_WIN  &trans  &trans  &trans      &kp BACKSPACE  &kp RIGHT_SHIFT                                            &mo 3
             >;
         };
