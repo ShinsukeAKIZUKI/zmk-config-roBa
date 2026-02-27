@@ -103,7 +103,7 @@
             bindings = <
 &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)                                        &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)      &kp LS(NUMBER_9)       &kp LS(NUMBER_0)
 &kp GRAVE         &none             &none             &kp LA(F4)        &kp LS(LC(LG(NUMBER_4)))  &trans         &trans         &kp MINUS         &kp EQUAL         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp NON_US_BACKSLASH
-&kp LS(GRAVE)     &none             &none             &none             &kp LS(LG(S))             &kp LCTRL      &mo 3          &kp LS(MINUS)     &kp LS(EQUAL)     &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LS(NON_US_BACKSLASH)
+&kp LS(GRAVE)     &none             &none             &kp LA(LC(V))     &kp LS(LG(S))             &kp LCTRL      &mo 3          &kp LS(MINUS)     &kp LS(EQUAL)     &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LS(NON_US_BACKSLASH)
 &kp ESCAPE        &kp LEFT_ALT      &kp LEFT_WIN      &trans            &trans                    &trans         &kp BACKSPACE  &kp RETURN                                                                       &mo 3
             >;
 
