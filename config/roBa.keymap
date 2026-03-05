@@ -78,7 +78,7 @@
 &to 6             &none           &none        &lt_to_layer_0 1 LEFT_CONTROL  &lt_to_layer_0 4 SPACE  &lt_to_layer_0 3 BACKSPACE      &lt_to_layer_0 1 BACKSPACE  &lt_to_layer_0 2 ENTER                                                  &none
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_msc SCRL_UP SCRL_DOWN>;
         };
 
         FUNCTION {
