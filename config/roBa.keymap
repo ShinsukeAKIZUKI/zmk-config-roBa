@@ -83,10 +83,10 @@
 
         FUNCTION {
             bindings = <
-&kp F1          &kp F2                  &kp F3                    &kp F4                          &kp F5                                                           &kp F6          &kp F7          &kp F8        &kp F9           &kp F10
-&kp CAPS        &kp LEFT_ALT            &mt LCTRL LA(LEFT_ARROW)  &mt LEFT_SHIFT LA(RIGHT_ARROW)  &mt LEFT_META LS(LA(RIGHT_ARROW))  &none          &none          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp F11
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &kp LG(LEFT_ARROW)        &kp LG(RIGHT_ARROW)             &kp LG(LS(RIGHT_ARROW))            &kp LCTRL      &trans         &kp HOME        &kp PG_DN       &kp PAGE_UP   &kp END          &kp F12
-&kp ESCAPE      &kp LEFT_ALT            &kp LEFT_WIN              &trans                          &trans                             &trans         &kp BACKSPACE  &kp RETURN                                                     &to 0
+&kp F1          &kp F2                  &kp F3                    &kp F4                          &kp F5                                                                    &kp F6          &kp F7          &kp F8        &kp F9           &kp F10
+&kp CAPS        &kp LEFT_ALT            &mt LCTRL LA(LEFT_ARROW)  &mt LEFT_SHIFT LA(RIGHT_ARROW)  &mt LEFT_META LS(LA(RIGHT_ARROW))  &kp LC(LA(DELETE))      &none          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp F11
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &kp LG(LEFT_ARROW)        &kp LG(RIGHT_ARROW)             &kp LG(LS(RIGHT_ARROW))            &kp LCTRL               &trans         &kp HOME        &kp PG_DN       &kp PAGE_UP   &kp END          &kp F12
+&kp ESCAPE      &kp LEFT_ALT            &kp LEFT_WIN              &trans                          &trans                             &trans                  &kp BACKSPACE  &kp RETURN                                                     &to 0
             >;
         };
 
