@@ -74,7 +74,7 @@
             bindings = <
 &kp Q         &kp W           &kp E        &kp R             &kp T                                                                               &kp Y                   &kp U             &kp I        &kp O            &kp P
 &kp A         &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &mt LEFT_META G         &none                           &to 7                       &mt LEFT_META H         &mt LEFT_SHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &kp SEMICOLON
-&mt LSHIFT Z  &kp X           &kp C        &mt LC(SPACE) V   &kp B                   &kp LCTRL                       &to 4                       &kp N                   &kp M             &kp COMMA    &kp DOT          &mt SLASH SLASH
+&mt LSHIFT Z  &kp X           &kp C        &mt LC(SPACE) V   &kp B                   &kp LCTRL                       &to 4                       &kp N                   &kp M             &kp COMMA    &kp DOT          &mt LEFT_SHIFT SLASH
 &to 6         &none           &none        &mo 1             &lt_to_layer_0 4 SPACE  &lt_to_layer_0 3 BACKSPACE      &lt_to_layer_0 1 BACKSPACE  &lt_to_layer_0 2 ENTER                                                  &to 0
             >;
 
