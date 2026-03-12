@@ -23,7 +23,7 @@
 
         shift_tab {
             bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
+            key-positions = <23 24>;
         };
 
         esc1 {
@@ -43,7 +43,7 @@
 
         moji {
             bindings = <&kp LC(SPACE)>;
-            key-positions = <25 24>;
+            key-positions = <12 13>;
         };
     };
 
