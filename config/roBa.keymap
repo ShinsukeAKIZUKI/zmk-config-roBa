@@ -50,6 +50,11 @@
             bindings = <&kp DEL>;
             key-positions = <7 8>;
         };
+
+        moji2 {
+            bindings = <&kp LC(SPACE)>;
+            key-positions = <25 24>;
+        };
     };
 
     macros {
