@@ -83,12 +83,21 @@
         Base {
             bindings = <
 &kp Q         &kp W           &kp E        &kp R             &kp T                                                                               &kp Y                   &kp U             &kp I        &kp O            &kp P
-&kp A         &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &mt LEFT_META G         &none                           &to 7                       &mt LEFT_META H         &mt LEFT_SHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &kp SEMICOLON
-&mt LSHIFT Z  &kp X           &kp C        &mt LC(SPACE) V   &kp B                   &kp LCTRL                       &to 4                       &kp N                   &kp M             &kp COMMA    &kp DOT          &mt LEFT_SHIFT SLASH
-&to 6         &none           &none        &mo 1             &lt_to_layer_0 4 SPACE  &lt_to_layer_0 3 BACKSPACE      &lt_to_layer_0 1 BACKSPACE  &lt_to_layer_0 2 ENTER                                                  &to 0
+&kp A         &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &mt LEFT_META G         &none                           &to 1                       &mt LEFT_META H         &mt LEFT_SHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &kp SEMICOLON
+&mt LSHIFT Z  &kp X           &kp C        &mt LC(SPACE) V   &kp B                   &kp LCTRL                       &to 5                       &kp N                   &kp M             &kp COMMA    &kp DOT          &mt LEFT_SHIFT SLASH
+&to 1         &none           &none        &mo 2             &lt_to_layer_0 5 SPACE  &lt_to_layer_0 4 BACKSPACE      &lt_to_layer_0 2 BACKSPACE  &lt_to_layer_0 3 ENTER                                                  &to 0
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
+        };
+
+        Mac {
+            bindings = <
+&kp Q                 &kp W           &kp E           &kp R             &kp T                                                                               &kp Y                   &kp U         &kp I           &kp O            &kp P
+&kp A                 &mt LEFT_ALT S  &mt LEFT_GUI D  &mt LEFT_SHIFT F  &mt LCTRL G             &trans                          &to 1                       &mt RCTRL H             &mt RSHIFT J  &mt LEFT_GUI K  &mt RIGHT_ALT L  &kp SEMI
+&mt LG(LEFT_SHIFT) Z  &kp X           &kp C           &kp V             &kp B                   &kp LCTRL                       &trans                      &kp N                   &kp M         &kp COMMA       &kp DOT          &mt RIGHT_SHIFT SLASH
+&trans                &trans          &trans          &mo 2             &lt_to_layer_0 5 SPACE  &lt_to_layer_0 4 BACKSPACE      &lt_to_layer_0 2 BACKSPACE  &lt_to_layer_0 3 ENTER                                                 &to 0
+            >;
         };
 
         FUNCTION {
@@ -124,8 +133,8 @@
             bindings = <
 &kp DELETE  &none               &kp UP_ARROW    &trans                      &trans                                             &trans          &kp RG(W)  &kp RC(W)  &none     &kp LS(DEL)
 &kp ENTER   &kp LEFT_ARROW      &kp DOWN_ARROW  &mt LEFT_SHIFT RIGHT_ARROW  &none   &none                       &none          &msc SCRL_UP    &mkp MB1   &mkp MB3   &mkp MB2  &kp RETURN
-&kp LSHFT   &kp LS(LEFT_ARROW)  &kp M           &kp LS(RIGHT_ARROW)         &none   &kp LCTRL                   &to 4          &msc SCRL_DOWN  &mkp MB4   &mkp MB5   &trans    &trans
-&kp ESCAPE  &kp LEFT_ALT        &kp LEFT_GUI    &trans                      &trans  &lt_to_layer_0 5 LCTRL      &kp BACKSPACE  &kp RETURN                                      &to 0
+&kp LSHFT   &kp LS(LEFT_ARROW)  &kp M           &kp LS(RIGHT_ARROW)         &none   &kp LCTRL                   &to 5          &msc SCRL_DOWN  &mkp MB4   &mkp MB5   &trans    &trans
+&kp ESCAPE  &kp LEFT_ALT        &kp LEFT_GUI    &trans                      &trans  &lt_to_layer_0 7 LCTRL      &kp BACKSPACE  &kp RETURN                                      &to 0
             >;
         };
 
@@ -143,16 +152,7 @@
 &kp Y   &kp U           &kp I        &kp O             &kp P                             &none   &none   &none   &none   &none
 &kp H   &mt LEFT_ALT J  &mt LCTRL K  &mt LEFT_SHIFT L  &kp LS(L)  &trans         &trans  &trans  &trans  &trans  &trans  &trans
 &kp F9  &kp F10         &kp N        &kp M             &kp F1     &kp LCTRL      &trans  &trans  &trans  &trans  &trans  &none
-&to 6   &trans          &trans       &kp LEFT_SHIFT    &trans     &trans         &trans  &trans                          &to 0
-            >;
-        };
-
-        Mac {
-            bindings = <
-&kp Q                 &kp W           &kp E           &kp R             &kp T                                              &kp Y        &kp U         &kp I           &kp O            &kp P
-&kp A                 &mt LEFT_ALT S  &mt LEFT_GUI D  &mt LEFT_SHIFT F  &mt LCTRL G  &trans               &to 7            &mt RCTRL H  &mt RSHIFT J  &mt LEFT_GUI K  &mt RIGHT_ALT L  &kp SEMI
-&mt LG(LEFT_SHIFT) Z  &kp X           &kp C           &kp V             &kp B        &kp LCTRL            &trans           &kp N        &kp M         &kp COMMA       &kp DOT          &mt RIGHT_SHIFT SLASH
-&trans                &trans          &trans          &mo 1             &lt 4 SPACE  &lt 3 BACKSPACE      &lt 1 BACKSPACE  &lt 2 ENTER                                                 &to 0
+&to 1   &trans          &trans       &kp LEFT_SHIFT    &trans     &trans         &trans  &trans                          &to 0
             >;
         };
     };
