@@ -152,7 +152,7 @@
 &kp Y   &kp U           &kp I        &kp O             &kp P                             &none   &none   &none   &none   &none
 &kp H   &mt LEFT_ALT J  &mt LCTRL K  &mt LEFT_SHIFT L  &kp LS(L)  &trans         &trans  &trans  &trans  &trans  &trans  &trans
 &kp F9  &kp F10         &kp N        &kp M             &kp F1     &kp LCTRL      &trans  &trans  &trans  &trans  &trans  &none
-&to 1   &trans          &trans       &kp LEFT_SHIFT    &trans     &trans         &trans  &trans                          &to 0
+&to 0   &trans          &trans       &kp LEFT_SHIFT    &trans     &trans         &trans  &trans                          &to 0
             >;
         };
     };
