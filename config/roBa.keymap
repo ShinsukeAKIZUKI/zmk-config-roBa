@@ -88,7 +88,7 @@
         Base {
             bindings = <
 &kp Q         &kp W           &kp E        &kp R             &kp T                                                           &kp Y                   &kp U             &kp I        &kp O            &kp P
-&kp A         &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &mt LEFT_META G  &to 0                           &to 1          &mt LEFT_META H         &mt LEFT_SHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &kp SEMICOLON
+&mt LCTRL A   &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &mt LEFT_META G  &to 0                           &to 1          &mt LEFT_META H         &mt LEFT_SHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &mt RCTRL SEMICOLON
 &mt LSHIFT Z  &kp X           &kp C        &mt LC(SPACE) V   &kp B            &kp LCTRL                       &to 5          &kp N                   &kp M             &kp COMMA    &kp DOT          &mt LEFT_SHIFT SLASH
 &to 7         &none           &none        &mo 2             &lt 5 SPACE      &lt_to_layer_0 4 BACKSPACE      &kp BACKSPACE  &lt_to_layer_0 3 ENTER                                                  &to 0
             >;
@@ -98,10 +98,10 @@
 
         Mac {
             bindings = <
-&kp Q                 &kp W           &kp E           &kp R             &kp T                                            &kp Y        &kp U         &kp I           &kp O            &kp P
-&kp A                 &mt LEFT_ALT S  &mt LEFT_GUI D  &mt LEFT_SHIFT F  &mt LCTRL G  &to 0                &to 1          &mt RCTRL H  &mt RSHIFT J  &mt LEFT_GUI K  &mt RIGHT_ALT L  &kp SEMI
-&mt LG(LEFT_SHIFT) Z  &kp X           &kp C           &kp V             &kp B        &kp LCTRL            &trans         &kp N        &kp M         &kp COMMA       &kp DOT          &mt RIGHT_SHIFT SLASH
-&trans                &trans          &trans          &mo 2             &lt 5 SPACE  &lt 4 BACKSPACE      &kp BACKSPACE  &lt 3 ENTER                                                 &to 0
+&kp Q             &kp W           &kp E           &kp R             &kp T                                            &kp Y        &kp U         &kp I           &kp O            &kp P
+&mt LEFT_META A   &mt LEFT_ALT S  &mt LEFT_GUI D  &mt LEFT_SHIFT F  &mt LCTRL G  &to 0                &to 1          &mt RCTRL H  &mt RSHIFT J  &mt LEFT_GUI K  &mt RIGHT_ALT L  &mt LEFT_META SEMICOLON
+&mt LEFT_SHIFT Z  &kp X           &kp C           &kp V             &kp B        &kp LCTRL            &trans         &kp N        &kp M         &kp COMMA       &kp DOT          &mt RIGHT_SHIFT SLASH
+&trans            &trans          &trans          &mo 2             &lt 5 SPACE  &lt 4 BACKSPACE      &kp BACKSPACE  &lt 3 ENTER                                                 &to 0
             >;
         };
 
@@ -136,10 +136,10 @@
 
         MOUSE {
             bindings = <
-&kp DELETE  &none               &kp UP_ARROW    &trans                      &trans                                &trans          &kp RG(W)  &kp RC(W)  &none     &kp LS(DEL)
-&kp ENTER   &kp LEFT_ARROW      &kp DOWN_ARROW  &mt LEFT_SHIFT RIGHT_ARROW  &none   &none          &none          &msc SCRL_UP    &mkp MB1   &mkp MB3   &mkp MB2  &kp RETURN
-&kp LSHFT   &kp LS(LEFT_ARROW)  &kp M           &kp LS(RIGHT_ARROW)         &none   &kp LCTRL      &to 5          &msc SCRL_DOWN  &mkp MB4   &mkp MB5   &trans    &trans
-&kp ESCAPE  &kp LEFT_ALT        &kp LEFT_GUI    &trans                      &trans  &mo 6          &kp BACKSPACE  &kp RETURN                                      &to 0
+&kp DELETE  &none               &kp UP_ARROW    &trans               &trans                                &trans          &kp RG(W)  &kp RC(W)  &none     &kp LS(DEL)
+&kp ENTER   &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &none   &none          &none          &msc SCRL_UP    &mkp MB1   &mkp MB3   &mkp MB2  &kp RETURN
+&kp LSHFT   &kp LS(LEFT_ARROW)  &kp M           &kp LS(RIGHT_ARROW)  &none   &kp LCTRL      &to 5          &msc SCRL_DOWN  &mkp MB4   &mkp MB5   &trans    &trans
+&kp ESCAPE  &kp LEFT_ALT        &kp LEFT_GUI    &trans               &trans  &mo 6          &kp BACKSPACE  &kp RETURN                                      &to 0
             >;
         };
 
