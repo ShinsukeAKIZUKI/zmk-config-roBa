@@ -60,6 +60,11 @@
             bindings = <&mkp MB3>;
             key-positions = <34 42>;
         };
+
+        eq {
+            bindings = <&kp EQUAL>;
+            key-positions = <18 19>;
+        };
     };
 
     macros {
